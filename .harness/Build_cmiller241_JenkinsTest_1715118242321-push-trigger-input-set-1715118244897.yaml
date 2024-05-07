@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_cmiller241_JenkinsTest_1715118242321-push-trigger-input-set
+  identifier: Build_cmiller241_JenkinsTest_1715118242321pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: HelloWorld2
+  pipeline:
+    identifier: Build_cmiller241_JenkinsTest_1715118242321
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
